@@ -1,0 +1,62 @@
+
+
+/* .content{
+    background-color: ;
+} */
+body{
+    background-color: black;
+}
+
+.icon{
+    margin-right: 10px;
+    font-size: 25px;
+    color:#29c388;
+    padding: 10px;
+    transition: 1s;
+    background-color: #1d1d1dcd;
+    margin: 10px;
+}
+
+.shado{
+    box-shadow: 4px 4px 8px black,4px -4px 8px black;
+}
+.icon:hover{
+   scale: 1.2;
+}
+
+.hire-btn {
+    padding: 0.6em 2em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    
+   }
+   
+   .hire-btn::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .hire-btn:hover::before {
+    width: 105%;
+   }
+   
+   .hire-btn:hover {
+    color: #111;
+   }
