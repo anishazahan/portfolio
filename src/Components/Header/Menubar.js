@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../../img/Capture-removebg-preview.png'
 import resume1 from './resume.pdf'
+import './menu.css'
 
 const Menubar = () => {
     const [nav, setNav] = useState(false);
@@ -58,7 +59,7 @@ const Menubar = () => {
                 <div>
                     <div
                         className={`flex-1 justify-center items-center pl-10 md:pl-0 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                            navbar ? "block" : "hidden"
+                            navbar ? "block scale-up-hor-center" : "hidden"
                         }`}
                     >
                         <ul className="items-center w-full  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
@@ -88,7 +89,7 @@ const Menubar = () => {
                 <div className="hidden md:block space-x-2 ">
                     <a
                         href={resume1}  target='_blank' rel="noreferrer"
-                        className="px-5 py-3 font-semibold duration-500 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"
+                        className="px-5 py-3 font-semibold duration-1000 hover:text-white text-black bg-primary rounded-sm shadow hover:bg-gray-800"
                     >
                         See Resume
                     </a>

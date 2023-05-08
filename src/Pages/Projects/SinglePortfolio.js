@@ -13,7 +13,7 @@ console.log(portfolio);
   //       navigate(`/portfolio/${id}`)
   //  }
   return (
-    <div className="border-4 border-primary cursor-pointer"  onClick={()=>navigate(`/portfolio/${_id}`)}>
+    <div data-aos="flip-up" className="border-4 border-primary cursor-pointer"  onClick={()=>navigate(`/portfolio/${_id}`)}>
     <div className="relative group">
      <img className='z-10 group-hover:bg-black/50 hover:scale-105 duration-500 overflow-hidden' src={ portfolio?.img} alt="" />
      <div className="absolute w-full h-full z-20"></div>

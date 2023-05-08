@@ -15,7 +15,8 @@ const Contact = () => {
             <div className=" overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
 
-                    <div className="p-6 mr-4  bg-black sm:rounded-md">
+                    <div 
+          data-aos="fade-right" className="p-6 mr-4  bg-black sm:rounded-md">
                         <h1 className="text-3xl sm:text-4xl text-gray-300  font-extrabold tracking-tight">
                             Get in touch
                         </h1>
@@ -73,7 +74,7 @@ const Contact = () => {
                     <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary peer-focus:dark:text-blue-500">Your message</label>
                     </div>
                 </div>
-                <button type="submit" className="mt-5 bg-black px-10 py-3 text-white">Send Message</button>
+                <button data-aos="fade-left" type="submit" className="mt-5 bg-black px-10 py-3 text-white hover:bg-primary duration-500">Send Message</button>
                 </form>
 
                 </div>

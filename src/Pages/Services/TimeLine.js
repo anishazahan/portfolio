@@ -14,12 +14,12 @@ const TimeLine = () => {
   <div className="relative wrap overflow-hidden p-5 md:p-10 h-full">
     
     {/* <!-- right timeline --> */}
-    <div className="mb-8 flex justify-between items-center w-full right-timeline">
+    <div  className="mb-8 flex justify-between items-center w-full right-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div data-aos="fade-down" data-aos-delay=".500" className="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 className="mx-auto font-bold text-lg text-black">1</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+      <div data-aos="fade-left" data-aos-delay=".500" className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 className="mb-3 font-bold text-gray-900 text-xl">Web Design and ,React .Js ,Fronted,Junior Mern Stack Developer.</h3>
         
       </div>
@@ -28,10 +28,10 @@ const TimeLine = () => {
     {/* <!-- left timeline --> */}
     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div data-aos="fade-down" data-aos-delay=".700" className="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 className="mx-auto text-black font-bold text-lg">2</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+      <div data-aos="fade-right" data-aos-delay=".700" className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 className="mb-3 font-bold text-gray-900 text-xl">Cross browser operability,Responsive design for all devices.</h3>
        
       </div>
@@ -40,10 +40,10 @@ const TimeLine = () => {
     {/* <!-- right timeline --> */}
     <div className="mb-8 flex justify-between items-center w-full right-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div data-aos="fade-down" data-aos-delay=".800" className="z-20 hidden md:flex  items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 className="mx-auto font-bold text-lg text-black">3</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+      <div data-aos="fade-left" data-aos-delay=".800" className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 className="mb-3 font-bold text-gray-900 text-xl">Process improvement,workflow optimization.User Requirement Gathering.</h3>
         
       </div>
@@ -51,10 +51,10 @@ const TimeLine = () => {
     {/* <!-- left timeline --> */}
     <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
       <div className="order-1 w-5/12"></div>
-      <div className="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
+      <div data-aos="fade-down" data-aos-delay=".900" className="z-20 hidden md:flex items-center order-1 bg-primary shadow-xl w-8 h-8 rounded-full">
         <h1 className="mx-auto text-black font-bold text-lg">4</h1>
       </div>
-      <div className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
+      <div data-aos="fade-right" data-aos-delay=".900" className="order-1 bg-gray-400 rounded-lg shadow-xl w-full md:w-5/12 px-6 py-4">
         <h3 className="mb-3 font-bold text-gray-900 text-xl">Fresh, Commentable, Clean Code, Error handling, Debugging, fixing problems.Client Interaction about the project. </h3>
       </div>
     </div>
